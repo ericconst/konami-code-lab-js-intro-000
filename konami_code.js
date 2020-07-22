@@ -15,7 +15,7 @@ function init() {
   var count = 0;
 
   function keyHandler(){
-    if ('keydown' === codes[i]){
+    if ('keydown' === codes[count]){
       count++;
       if (count === codes.length) {
         alert("Congratulations! You've hacked it!");
