@@ -15,7 +15,7 @@ function init() {
   var count = 0;
 
   function keyHandler(){
-    for (let i = 0 ; i < codes.length ; i++){
+    for (let i = 0 ; i <= codes.length ; i++){
 
       if ('keydown' === codes[i]){
         count++;
