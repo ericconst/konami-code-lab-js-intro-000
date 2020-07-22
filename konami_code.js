@@ -11,10 +11,12 @@ const codes = [
   "a"
 ];
 
+var count = 0;
+
 function init() {
-  var count = 0;
 
   document.body.addEventListener("keydown", (event)=>{
+    const key = event.key
     if (key === codes[count]){
       count++;
       if (count === codes.length) {
