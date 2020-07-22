@@ -23,6 +23,7 @@ function init() {
         if (count === codes.length){
 
           alert('Congratulations! You\'ve hacked it!');
+          count = 0;
         }
       }
       else {
