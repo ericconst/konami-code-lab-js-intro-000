@@ -28,5 +28,7 @@ function init() {
     }}
 
 
-  document.body.addEventListener("keydown", keyHandler(e))
+  document.body.addEventListener("keydown", (event)=>{
+    keyHandler();
+  })
 }
