@@ -14,8 +14,10 @@ const codes = [
 function init() {
   var count = 0;
 
-  function keyHandler(){
-    if ('keydown' === codes[count]){
+  function keyHandler(e){
+    const key = e.key
+
+    if (key === codes[count]){
       count++;
       if (count === codes.length) {
         alert("Congratulations! You've hacked it!");
