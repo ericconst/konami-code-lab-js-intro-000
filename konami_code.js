@@ -20,10 +20,9 @@ function init() {
       if ('keydown' === codes[i]){
         count++;
 
-        if (count === codes.length-1){
+        if (count === codes.length){
 
           alert('Congratulations! You\'ve hacked it!');
-          count = 0;
         }
       }
       else {
