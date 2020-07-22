@@ -13,6 +13,6 @@ const codes = [
 
 function init() {
   document.body.addEventListener("keydown", (event) =>{
-    if 
+    if
   }
 }
