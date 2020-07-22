@@ -14,8 +14,7 @@ const codes = [
 function init() {
   var count = 0;
 
-  function keyHandler(){
-
+  document.body.addEventListener("keydown", (event)=>{
     if (key === codes[count]){
       count++;
       if (count === codes.length) {
@@ -26,8 +25,5 @@ function init() {
       count = 0
     }}
 
-
-  document.body.addEventListener("keydown", (event)=>{
-    keyHandler();
   })
 }
