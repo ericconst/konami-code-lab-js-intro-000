@@ -25,5 +25,5 @@ function init() {
       count = 0
     }}
 
-  })
+  )
 }
