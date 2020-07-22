@@ -14,8 +14,7 @@ const codes = [
 function init() {
   var count = 0;
 
-  function keyHandler(e){
-    const key = e.key
+  function keyHandler(){
 
     if (key === codes[count]){
       count++;
