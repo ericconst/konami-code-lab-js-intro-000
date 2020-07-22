@@ -19,11 +19,15 @@ function init() {
         count ++
       }
       else {
-        break
+        count = 0
       }
     }
   }
   if (count === codes.length){
     alert('Congratulations! You\'ve hacked it!')
+    count = 0
+  }
+  else {
+    count = 0
   }
 }
