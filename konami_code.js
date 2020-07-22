@@ -20,7 +20,7 @@ function init() {
     if (key === codes[count]){
       count++;
       if (count === codes.length) {
-        alert("Congratulations! You've hacked it!");
+        alert("Hurray");
         count = 0;
     }}
     else {
